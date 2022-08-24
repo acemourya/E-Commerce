@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>E-commerce</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./assets/stylesheet/style.css">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Header section of cart -->
+	<header>
+		<!-- Cart icon btn -->
+		<div class="icn">
+		    <a type="button" class="icon-button" href="./cart.html"> 
+			    <span class="fa fa-shopping-cart"></span>
+			    <span class="icon-button__badge">2</span>
+			</a>	
+		</div>
+
+		<!-- Home Heading -->
+		<h1> Shoe Shop</h1>
+
+		<!-- Navigation bar -->
+		<div class="navbar">
+			<nav>
+				<ul class="topnav">
+					<li><a class="active" href="./home.html">Home</a></li>
+					<li><a href="./man_footwear.html">Men Foortwear</a></li>
+					<li><a href="./women_footwear.html">Women Footwear</a></li>
+				    <li><a href="#contact">Contact</a></li>    
+				</ul>  
+			</nav>
+		</div>
+	</header>
+	<!-- Header section close -->
+
+	<!-- Cart section -->
+	<section class="add_cart">
+		<div class="cart_row">
+
+			<div class="cart_col shadow-sm p-3 mb-5 bg-white rounde">
+				<div><h2>Cart (2 items)</h2> </div>
+
+				<!-- Selected Cart items with img, deatils, color, size,
+				 	quantity and total amounts with diff. row & col-->
+				<div class="cart_item row">
+					<div class="cart_det col"><img src="./assets/images/shoe1_m.jpeg"></div>
+
+					<div class="cart_det col">
+						<p class="row">Men Footwear</h3></p>
+						<p class="row">Demesure Unerobe Italian Leather Shoes for Men Lace Up For Men  (Brown)</p>
+						<p class="row">Color: Brown</p>
+						<p class="row">Size: 10</p>
+						<button class="row" type="button" id="remove_item" href="#">Remove item</button>	
+					</div>
+
+					<div class="cart_det col">
+						<div class="def-number-input number-input safari_only mb-0 ml-1 w-100 row">      
+							<p> Quantity : <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    	</div><p class="row"></p>						
+						<p class="row ml-1"><strong> Price: ₹3,799</strong></p>
+					</div>	
+				</div>
+
+				<hr>
+
+				<div class="cart_item row">
+					<div class="cart_det col"><img src="./assets/images/shoe5_m.jpeg"></div>
+					
+					<div class="cart_det col">
+						<p class="row">Men Footwear</h3></p>
+						<p class="row">Bouncer-01 Running shoes(Grey, Orange)</p>
+						<p class="row">Color: Grey, Orange</p>
+						<p class="row">Size: 10</p>
+						<button class="row" type="button" id="remove_item" href="#">Remove item</button>	
+					</div>
+					
+					<div class="cart_det col">
+						<div class="def-number-input number-input safari_only mb-0 ml-1 w-100 row">             
+		                      <p>Quantity : <input class="quantity" min="0" name="quantity" value="1" type="number"></p>
+                    	</div><p class="row"></p>						
+						<p class="row ml-1"><strong>Price: ₹3,799</strong></p>
+					</div>	
+				</div>
+			</div>
+
+			<div class="cart_col shadow-sm p-5 mb-5 bg-white rounded">
+				<div><h2>The total amount</h2></div>
+				<div class="cart_amount">
+					<div class="cart_cal">Temporary amount</div>
+					<div class="cart_cal">₹3,799</div>
+					<div class="cart_cal">Shipping</div>
+					<div class="cart_cal">Gratis</div>
+				</div>	
+				<hr>
+				
+				<div class="cart_amount">
+					<div class="cart_cal"><strong>The Total amount of<br>(including VAT)</strong></div>
+					<div class="cart_cal">₹3,799</div>
+				</div><br>
+				<a type="button" href="./checkout.html" class="btn btn-primary btn-block waves-effect waves-light">Go to Checkout</a>
+			</div>			
+		</div>		
+	</section>
+	<!-- Cart section close -->
+
+	<!-- Contact Section -->
+		<section id="contact">
+				<div class="card1">
+				  	<h1 class="heading">Contact</h1>
+				  	<p class="contact_title">Address: G-241, Jsam Pur, Delhi-110034</p>
+				  	
+				  	<div class="contact_link">
+					    <a href="tel:981-XXX-9714" id="fa"><i class="fa fa-address-book"><span> Call me </span></i>
+					    	</a> |
+					    <a href="mailto: exapmle@gmail.com" id="fa"><i class="fa fa-envelope">
+					    	<span> Email me </span></i></a>  |   
+					    <a href="https://www.linkedin.com/" id="fa" target="_blank">
+					    	<i class="fa fa-linkedin"><span> Linkedin </span></i></a>  |
+					    <a href="https://www.facebook.com/" id="fa" target="_blank"><i class="fa
+					    	fa-facebook"><span> Facebook</span></i></a> 
+				   	</div>
+				</div>
+		</section>
+		<!-- Contact Section close -->
+
+		<!-- Footer -->
+		<footer>
+			<p>© Anurag, 2021</p>
+		</footer>
+		<!-- Footer close  -->
+</body>
+
+</html>

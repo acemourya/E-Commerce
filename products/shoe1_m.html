@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>E-commerce</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../assets/stylesheet/style.css">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Header section of single page product details -->
+	<header>
+		<!-- Cart icon btn -->
+		<div class="icn">
+		    <a type="button" class="icon-button" href="../cart.html"> 
+			    <span class="fa fa-shopping-cart"></span>
+			    <span class="icon-button__badge">2</span>
+			</a>	
+		</div>
+
+		<!-- Home Heading -->
+		<h1> Shoe Shop</h1>
+
+		<!-- Navigation bar -->
+		<div class="navbar">
+			<nav>
+				<ul class="topnav">
+					<li><a class="active" href="../home.html">Home</a></li>
+					<li><a href="../man_footwear.html">Men Foortwear</a></li>
+					<li><a href="../women_footwear.html">Women Footwear</a></li> 
+				    <li><a href="#contact">Contact</a></li>    
+				</ul>  
+			</nav>
+		</div>
+	</header>
+
+	<!-- Shoe detail section -->
+	<section id="men_footwear">
+		<div class="small_container">
+			<h1>Men Footwear</h1>
+
+			<!-- Selected Product details, quantity and price -->
+			<div class="product_detail_row">
+
+				<div class="product_detail_col">
+					<img id="product_detail_img" src="../assets/images/shoe1_m.jpeg">
+				</div>
+
+				<div class="product_detail_col">					
+					<h2>Demesure Unerobe Italian Leather Shoes for Men Lace Up For Men  (Brown)</h2>
+					<div class="product_detail">
+					<h4 class="product_det1">Price</h4>
+					<h4 class="product_det1"> ₹3,799</h4>
+					
+					<p class="product_det1">Select Size</p> <span class="product_det1"><select>
+											<option>Select Size</option>
+											<option>7</option>
+											<option>9</option>
+											<option>10</option>
+											<option>11</option>
+										</select>
+									</span>					
+
+					<!-- Quantity -->
+					<p class="product_det">Quantity</p>
+					<input type="number" class="product_det" id="prd_det" name="quantity" value="1">
+					</div>
+					<h3>Product Details :</h3>
+					<div class="product_detail">
+								<div class="product_det">Color</div>
+								<div class="product_det">Brown</div>	
+
+								<div class="product_det">Inner material</div>
+								<div class="product_det">Ultra comfortable and soft pillow cushioned leather lining</div>
+
+								<div class="product_det">Outer material</div>
+								<div class="product_det">Genuine Leather</div>
+								
+								<div class="product_det">Model name</div>
+								<div class="product_det">Demesure Unerobe Italian Leather Shoes for Men</div>
+							
+								<div class="product_det">Ideal for</div>
+								<div class="product_det">Men</div>
+								
+								<div class="product_det">Occasion</div>
+								<div class="product_det">Formal</div>
+								
+								<div class="product_det">Leather type</div>
+								<div class="product_det">Top Grain</div>
+							
+								<div class="product_det">Secondary color </div>
+								<div class="product_det">Brown</div>
+						</div>
+						<a href="../cart.html" class="btn btn-primary" id="btn_add_cart">Add To Cart</a>
+					</div>			
+				</div>	
+			</div>
+		</div>
+	</section>
+	<!-- Shoe detail section close -->
+
+	<!-- Contact Section -->
+		<section id="contact">
+				<div class="card1">
+				  	<h1 class="heading">Contact</h1>
+				  	<p class="contact_title">Address: G-241, Jsam Pur, Delhi-110034</p>
+				  	
+				  	<div class="contact_link">
+					    <a href="tel:981-XXX-9714" id="fa"><i class="fa fa-address-book"><span> Call me </span></i>
+					    	</a> |
+					    <a href="mailto: exapmle@gmail.com" id="fa"><i class="fa fa-envelope">
+					    	<span> Email me </span></i></a>  |   
+					    <a href="https://www.linkedin.com/" id="fa" target="_blank">
+					    	<i class="fa fa-linkedin"><span> Linkedin </span></i></a>  |
+					    <a href="https://www.facebook.com/" id="fa" target="_blank"><i class="fa
+					    	fa-facebook"><span> Facebook</span></i></a> 
+				   	</div>
+				</div>
+		</section>
+		<!-- Contact Section close -->
+
+		<!-- Footer -->
+		<footer>
+			<p>© Anurag, 2021</p>
+		</footer>
+		<!-- Footer close  -->
+</body>
+</html>
